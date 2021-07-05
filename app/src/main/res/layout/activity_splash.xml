@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:gravity="center_vertical"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/imgs"
+        android:background="@drawable/splash1"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/imgs"
+        android:gravity="center_horizontal"
+        android:textSize="24dp"
+        android:textStyle="italic"
+        android:text="- By Ashish Kumar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>
